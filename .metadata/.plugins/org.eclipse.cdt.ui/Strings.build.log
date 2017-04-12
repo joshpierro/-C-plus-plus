@@ -1,0 +1,5 @@
+22:00:46 **** Clean-only build of configuration Debug for project Strings ****
+rm -rf Strings.exe src/Strings.d src/Strings.o 
+
+22:00:47 Build Finished (took 795ms)
+

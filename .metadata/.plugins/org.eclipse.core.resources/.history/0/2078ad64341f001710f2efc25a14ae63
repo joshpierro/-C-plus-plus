@@ -1,0 +1,21 @@
+//============================================================================
+// Name        : Hello.cpp
+// Author      : josh
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int Factorial(int n){
+
+	};
+
+int main() {
+	 // prints !!!Hello World!!!
+
+	Factorial(6);
+	return 0;
+}

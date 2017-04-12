@@ -1,0 +1,5 @@
+22:00:42 **** Clean-only build of configuration Debug for project Classes ****
+rm -rf src/Cats.d src/Cats.o src/Classes.d src/Classes.o Classes.exe 
+
+22:00:44 Build Finished (took 1s.361ms)
+

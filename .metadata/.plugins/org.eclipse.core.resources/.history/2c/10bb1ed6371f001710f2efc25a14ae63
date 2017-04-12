@@ -1,0 +1,17 @@
+/*
+ * Car.h
+ *
+ *  Created on: Apr 11, 2017
+ *      Author: pierrjo
+ */
+
+#ifndef CAR_H_
+#define CAR_H_
+
+class Car {
+public:
+	Car();
+	virtual ~Car();
+};
+
+#endif /* CAR_H_ */

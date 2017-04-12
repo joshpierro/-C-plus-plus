@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : Classes.cpp
+// Author      : josh
+// Version     :
+// Copyright   : yep
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Cat.h"
+
+using namespace std;
+
+int main() {
+	Cat cat = new Cat();
+	cat.jump();
+	cat.speak();
+	return 0;
+}

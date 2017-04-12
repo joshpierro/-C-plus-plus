@@ -1,0 +1,18 @@
+/*
+ * Doubler.cpp
+ *
+ *  Created on: Apr 11, 2017
+ *      Author: pierrjo
+ */
+
+#include "Doubler.h"
+
+Doubler::Doubler() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Doubler::~Doubler() {
+	// TODO Auto-generated destructor stub
+}
+

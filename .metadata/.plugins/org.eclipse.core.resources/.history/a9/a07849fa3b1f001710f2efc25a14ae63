@@ -1,0 +1,17 @@
+/*
+ * Doubler.h
+ *
+ *  Created on: Apr 11, 2017
+ *      Author: pierrjo
+ */
+
+#ifndef DOUBLER_H_
+#define DOUBLER_H_
+
+class Doubler {
+public:
+	Doubler();
+	virtual ~Doubler();
+};
+
+#endif /* DOUBLER_H_ */

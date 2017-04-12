@@ -1,0 +1,11 @@
+23:20:42 **** Rebuild of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+..\src\pointers.cpp: In function 'int factorial(int)':
+..\src\pointers.cpp:21:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o pointers.exe "src\\pointers.o" 
+
+23:20:45 Build Finished (took 2s.195ms)
+

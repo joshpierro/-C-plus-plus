@@ -1,0 +1,5 @@
+22:00:49 **** Clean-only build of configuration Debug for project outputting text ****
+rm -rf "src/outputting text.d" "outputting text.exe" "src/outputting text.o" 
+
+22:00:49 Build Finished (took 758ms)
+

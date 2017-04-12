@@ -1,0 +1,10 @@
+#ifndef DOUBLER_H_
+#define DOUBLER_H_
+
+class Doubler {
+public:
+	Doubler();
+	void Doubler(int *value);
+};
+
+#endif /* Doubler_H_ */

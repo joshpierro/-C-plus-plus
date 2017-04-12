@@ -1,0 +1,10 @@
+14:29:47 **** Incremental Build of configuration Debug for project integerTypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\integerTypes.o" "..\\src\\integerTypes.cpp" 
+..\src\integerTypes.cpp: In function 'int main()':
+..\src\integerTypes.cpp:15:10: error: 'INT_MIN' was not declared in this scope
+  cout << INT_MIN << endl; // prints !!!Hello World!!!
+          ^
+
+14:29:48 Build Finished (took 391ms)
+

@@ -1,0 +1,562 @@
+14:22:33 **** Rebuild of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+g++ -o Classes.exe "src\\Classes.o" 
+Info: Nothing to build for Classes
+14:31:30 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cats.o" "..\\src\\Cats.cpp" 
+g++ -o Classes.exe "src\\Cats.o" "src\\Classes.o" 
+Info: Nothing to build for Classes
+14:37:58 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+In file included from ..\src\Classes.cpp:10:0:
+..\src\Cat.h:15:1: error: expected ';' after class definition
+ }
+ ^
+..\src\Classes.cpp: In function 'int main()':
+..\src\Classes.cpp:15:20: error: conversion from 'Cat*' to non-scalar type 'Cat' requested
+  Cat cat = new Cat();
+                    ^
+14:37:59 **** Rebuild of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+14:38:00 **** Rebuild of configuration Debug for project Input ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.cpp" 
+g++ -o Input.exe "src\\Input.o" 
+14:38:01 **** Rebuild of configuration Debug for project Strings ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Strings.o" "..\\src\\Strings.cpp" 
+g++ -o Strings.exe "src\\Strings.o" 
+14:38:03 **** Rebuild of configuration Debug for project if ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\if.o" "..\\src\\if.cpp" 
+g++ -o if.exe "src\\if.o" 
+14:38:04 **** Rebuild of configuration Debug for project integer types ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\integer types.o" "..\\src\\integer types.cpp" 
+..\src\integer types.cpp: In function 'int main()':
+..\src\integer types.cpp:20:8: warning: unused variable 'shortI' [-Wunused-variable]
+  short shortI = 123;
+        ^
+..\src\integer types.cpp:21:7: warning: unused variable 'longI' [-Wunused-variable]
+  long longI = 1234444;
+       ^
+g++ -o "integer types.exe" "src\\integer types.o" 
+14:38:05 **** Rebuild of configuration Debug for project outputting text ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\outputting text.o" "..\\src\\outputting text.cpp" 
+g++ -o "outputting text.exe" "src\\outputting text.o" 
+14:38:06 **** Rebuild of configuration Debug for project variables ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\variables.o" "..\\src\\variables.cpp" 
+g++ -o variables.exe "src\\variables.o" 
+14:38:12 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+In file included from ..\src\Classes.cpp:10:0:
+..\src\Cat.h:15:1: error: expected ';' after class definition
+ }
+ ^
+..\src\Classes.cpp: In function 'int main()':
+..\src\Classes.cpp:15:20: error: conversion from 'Cat*' to non-scalar type 'Cat' requested
+  Cat cat = new Cat();
+                    ^
+14:39:52 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cats.o" "..\\src\\Cats.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+g++ -o Classes.exe "src\\Cats.o" "src\\Classes.o" 
+Info: Nothing to build for Classes
+16:15:29 **** Rebuild of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cats.o" "..\\src\\Cats.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+..\src\Classes.cpp: In function 'int main()':
+..\src\Classes.cpp:18:16: error: conversion from 'int' to non-scalar type 'std::__cxx11::string {aka std::__cxx11::basic_string<char>}' requested
+  string test = 123;
+                ^
+Info: Nothing to build for Classes
+16:15:50 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+g++ -o Classes.exe "src\\Cats.o" "src\\Classes.o" 
+16:16:23 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+g++ -o Classes.exe "src\\Cats.o" "src\\Classes.o" 
+16:16:47 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+..\src\Classes.cpp: In function 'int main()':
+..\src\Classes.cpp:19:6: warning: unused variable 'one' [-Wunused-variable]
+  int one = 1;
+      ^
+g++ -o Classes.exe "src\\Cats.o" "src\\Classes.o" 
+16:17:52 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+..\src\Classes.cpp: In function 'int main()':
+..\src\Classes.cpp:22:13: error: request for member 'str' in 'one', which is of non-class type 'int'
+  cout<< one.str() + " jjejej" <<endl;
+             ^
+16:18:05 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+..\src\Classes.cpp: In function 'int main()':
+..\src\Classes.cpp:22:13: error: request for member 'str' in 'one', which is of non-class type 'int'
+  cout<< one.str() <<endl;
+             ^
+16:19:25 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+..\src\Classes.cpp: In function 'int main()':
+..\src\Classes.cpp:22:9: error: 'to_string' is not a member of 'std'
+  cout<< std::to_string(one)  <<endl;
+         ^
+16:19:59 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+..\src\Classes.cpp: In function 'int main()':
+..\src\Classes.cpp:22:22: error: 'to_string' was not declared in this scope
+  cout<< to_string(one)  <<endl;
+                      ^
+16:21:41 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+..\src\Classes.cpp: In function 'int main()':
+..\src\Classes.cpp:22:13: error: request for member 'toString' in 'one', which is of non-class type 'int'
+  cout<< one.toString()  <<endl;
+             ^
+16:22:56 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+g++ -o Classes.exe "src\\Cats.o" "src\\Classes.o" 
+16:33:41 **** Rebuild of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+..\src\pointers.cpp: In function 'int main()':
+..\src\pointers.cpp:13:9: warning: unused variable 'nValue' [-Wunused-variable]
+     int nValue = 8;
+         ^
+g++ -o pointers.exe "src\\pointers.o" 
+16:33:47 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+g++ -o pointers.exe "src\\pointers.o" 
+Info: Nothing to build for Classes
+16:35:09 **** Rebuild of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+16:35:10 **** Rebuild of configuration Debug for project Input ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.cpp" 
+g++ -o Input.exe "src\\Input.o" 
+16:35:11 **** Rebuild of configuration Debug for project Strings ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Strings.o" "..\\src\\Strings.cpp" 
+g++ -o Strings.exe "src\\Strings.o" 
+16:35:12 **** Rebuild of configuration Debug for project if ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\if.o" "..\\src\\if.cpp" 
+g++ -o if.exe "src\\if.o" 
+16:35:13 **** Rebuild of configuration Debug for project integer types ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\integer types.o" "..\\src\\integer types.cpp" 
+..\src\integer types.cpp: In function 'int main()':
+..\src\integer types.cpp:20:8: warning: unused variable 'shortI' [-Wunused-variable]
+  short shortI = 123;
+        ^
+..\src\integer types.cpp:21:7: warning: unused variable 'longI' [-Wunused-variable]
+  long longI = 1234444;
+       ^
+g++ -o "integer types.exe" "src\\integer types.o" 
+16:35:14 **** Rebuild of configuration Debug for project outputting text ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\outputting text.o" "..\\src\\outputting text.cpp" 
+g++ -o "outputting text.exe" "src\\outputting text.o" 
+16:35:15 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+..\src\pointers.cpp: In function 'int main()':
+..\src\pointers.cpp:15:10: warning: unused variable 'pnValue' [-Wunused-variable]
+     int* pnValue = &nValue;
+          ^
+g++ -o pointers.exe "src\\pointers.o" 
+16:35:16 **** Rebuild of configuration Debug for project variables ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\variables.o" "..\\src\\variables.cpp" 
+g++ -o variables.exe "src\\variables.o" 
+16:35:24 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+g++ -o pointers.exe "src\\pointers.o" 
+16:36:17 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+..\src\pointers.cpp: In function 'int main()':
+..\src\pointers.cpp:16:35: error: invalid operands of types 'const char [18]' and 'int*' to binary 'operator+'
+     cout<< "pointer address: " +  pnValue << endl;
+                                   ^
+16:36:26 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+..\src\pointers.cpp: In function 'int main()':
+..\src\pointers.cpp:16:35: error: invalid operands of types 'const char [18]' and 'int*' to binary 'operator+'
+     cout<< "pointer address: " +  pnValue << endl;
+                                   ^
+16:36:43 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+g++ -o pointers.exe "src\\pointers.o" 
+16:37:39 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+g++ -o pointers.exe "src\\pointers.o" 
+16:37:49 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+g++ -o pointers.exe "src\\pointers.o" 
+16:49:37 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+g++ -o pointers.exe "src\\pointers.o" 
+16:51:07 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+..\src\pointers.cpp: In function 'int main()':
+..\src\pointers.cpp:27:12: error: void value not ignored as it ought to be
+     dValue = manipulate(dValue);
+            ^
+16:51:29 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+..\src\pointers.cpp: In function 'void manipulate(double)':
+..\src\pointers.cpp:15:9: error: return-statement with a value, in function returning 'void' [-fpermissive]
+  return value;
+         ^
+..\src\pointers.cpp: In function 'int main()':
+..\src\pointers.cpp:28:12: error: void value not ignored as it ought to be
+     dValue = manipulate(dValue);
+            ^
+16:52:25 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+g++ -o pointers.exe "src\\pointers.o" 
+Info: Nothing to build for pointers
+Info: Nothing to build for pointers
+20:41:11 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+..\src\Hello World.cpp: In function 'int main()':
+..\src\Hello World.cpp:14:10: error: expected unqualified-id before numeric constant
+  for(int 1=0,i<10,i++){
+          ^
+..\src\Hello World.cpp:14:10: error: expected ';' before numeric constant
+..\src\Hello World.cpp:14:11: error: lvalue required as left operand of assignment
+  for(int 1=0,i<10,i++){
+           ^
+..\src\Hello World.cpp:14:14: error: 'i' was not declared in this scope
+  for(int 1=0,i<10,i++){
+              ^
+..\src\Hello World.cpp:14:22: error: expected ';' before ')' token
+  for(int 1=0,i<10,i++){
+                      ^
+20:41:34 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+..\src\Hello World.cpp: In function 'int main()':
+..\src\Hello World.cpp:14:10: error: expected unqualified-id before numeric constant
+  for(int 1=0;i<10;i++){
+          ^
+..\src\Hello World.cpp:14:10: error: expected ';' before numeric constant
+..\src\Hello World.cpp:14:11: error: lvalue required as left operand of assignment
+  for(int 1=0;i<10;i++){
+           ^
+..\src\Hello World.cpp:14:14: error: 'i' was not declared in this scope
+  for(int 1=0;i<10;i++){
+              ^
+..\src\Hello World.cpp:14:18: error: expected ')' before ';' token
+  for(int 1=0;i<10;i++){
+                  ^
+..\src\Hello World.cpp:14:19: error: 'i' was not declared in this scope
+  for(int 1=0;i<10;i++){
+                   ^
+20:41:46 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+20:57:15 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+..\src\Hello World.cpp: In function 'int main()':
+..\src\Hello World.cpp:14:26: error: a function-definition is not allowed here before '{' token
+  int Factorial(int value){
+                          ^
+..\src\Hello World.cpp:26:1: error: expected '}' at end of input
+ }
+ ^
+20:58:44 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+..\src\Hello World.cpp: In function 'int Factorial(int)':
+..\src\Hello World.cpp:14:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  };
+  ^
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+20:59:17 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+..\src\Hello World.cpp: In function 'int Factorial(int)':
+..\src\Hello World.cpp:14:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  };
+  ^
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+20:59:46 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+..\src\Hello World.cpp: In function 'int Factorial(int)':
+..\src\Hello World.cpp:18:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  };
+  ^
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:00:02 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+..\src\Hello World.cpp: In function 'int Factorial(int)':
+..\src\Hello World.cpp:18:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  };
+  ^
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:00:21 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:00:35 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:03:04 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+..\src\Hello World.cpp: In function 'int Factorial(int)':
+..\src\Hello World.cpp:14:6: warning: unused variable 'factorial' [-Wunused-variable]
+  int factorial;
+      ^
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:03:16 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+..\src\Hello World.cpp: In function 'int Factorial(int)':
+..\src\Hello World.cpp:14:6: warning: unused variable 'factorial' [-Wunused-variable]
+  int factorial;
+      ^
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:05:01 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+..\src\Hello World.cpp: In function 'int Factorial(int)':
+..\src\Hello World.cpp:14:6: warning: unused variable 'factorial' [-Wunused-variable]
+  int factorial;
+      ^
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:06:00 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:06:37 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:09:27 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:10:41 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:11:02 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:12:29 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:13:04 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:13:50 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:14:06 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:14:34 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:14:42 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:15:24 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.cpp" 
+g++ -o "Hello World.exe" "src\\Hello World.o" 
+21:48:37 **** Rebuild of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int main()':
+..\src\main.cpp:15:20: error: 'Doubler' was not declared in this scope
+      Doubler(&value);
+                    ^
+21:49:12 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int main()':
+..\src\main.cpp:15:20: error: 'Doubler' was not declared in this scope
+      Doubler(&value);
+                    ^
+21:50:49 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Doubler.o" "..\\src\\Doubler.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int main()':
+..\src\main.cpp:15:20: error: 'Doubler' was not declared in this scope
+      Doubler(&value);
+                    ^
+21:51:55 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int main()':
+..\src\main.cpp:15:20: error: 'Doubler' was not declared in this scope
+      Doubler(&value);
+                    ^
+21:52:11 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int main()':
+..\src\main.cpp:15:20: error: 'Doubler' was not declared in this scope
+      Doubler(&value);
+                    ^
+21:52:30 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int main()':
+..\src\main.cpp:15:20: error: 'Doubler' was not declared in this scope
+      Doubler(&value);
+                    ^
+21:52:44 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int main()':
+..\src\main.cpp:15:20: error: 'Doubler' was not declared in this scope
+      Doubler(&value);
+                    ^
+21:53:02 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int main()':
+..\src\main.cpp:15:20: error: 'Doubler' was not declared in this scope
+      Doubler(&value);
+                    ^
+21:53:21 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp: In function 'int main()':
+..\src\main.cpp:15:20: error: 'Doubler' was not declared in this scope
+      Doubler(&value);
+                    ^
+21:54:14 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Doubler.o" "..\\src\\Doubler.cpp" 
+..\src\Doubler.cpp:6:21: fatal error: Doubler.h: No such file or directory
+compilation terminated.
+21:54:57 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp:6:21: fatal error: Doubler.h: No such file or directory
+compilation terminated.
+21:55:12 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Doubler.o" "..\\src\\Doubler.cpp" 
+..\src\Doubler.cpp:6:21: fatal error: Doubler.h: No such file or directory
+compilation terminated.
+21:55:55 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp:6:21: fatal error: Doubler.h: No such file or directory
+compilation terminated.
+21:58:01 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Doubler.o" "..\\src\\Doubler.cpp" 
+..\src\Doubler.cpp:6:21: fatal error: Doubler.h: No such file or directory
+compilation terminated.
+21:58:16 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp:6:21: fatal error: Doubler.h: No such file or directory
+compilation terminated.
+21:59:09 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp:6:21: fatal error: Doubler.h: No such file or directory
+compilation terminated.
+21:59:52 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp:6:21: fatal error: Doubler.h: No such file or directory
+compilation terminated.
+22:00:31 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp:6:21: fatal error: Doubler.h: No such file or directory
+compilation terminated.
+22:00:42 **** Clean-only build of configuration Debug for project Classes ****
+rm -rf src/Cats.d src/Cats.o src/Classes.d src/Classes.o Classes.exe 
+22:00:44 **** Clean-only build of configuration Debug for project Doubler ****
+rm -rf Doubler.exe src/main.d src/main.o 
+22:00:44 **** Clean-only build of configuration Debug for project Hello World ****
+rm -rf "src/Hello World.o" "src/Hello World.d" "Hello World.exe" 
+22:00:45 **** Clean-only build of configuration Debug for project Input ****
+rm -rf Input.exe src/Input.o src/Input.d 
+22:00:46 **** Clean-only build of configuration Debug for project Strings ****
+rm -rf Strings.exe src/Strings.d src/Strings.o 
+22:00:47 **** Clean-only build of configuration Debug for project if ****
+rm -rf src/if.o src/if.d if.exe 
+22:00:48 **** Clean-only build of configuration Debug for project integer types ****
+rm -rf "integer types.exe" "src/integer types.d" "src/integer types.o" 
+22:00:49 **** Clean-only build of configuration Debug for project outputting text ****
+rm -rf "src/outputting text.d" "outputting text.exe" "src/outputting text.o" 
+22:00:49 **** Clean-only build of configuration Debug for project pointers ****
+rm -rf src/pointers.d pointers.exe src/pointers.o 
+22:00:50 **** Clean-only build of configuration Debug for project variables ****
+rm -rf src/variables.o variables.exe src/variables.d 
+22:00:55 **** Rebuild of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp:6:21: fatal error: Doubler.h: No such file or directory
+compilation terminated.
+22:01:06 **** Incremental Build of configuration Debug for project Doubler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+..\src\main.cpp:6:21: fatal error: Doubler.h: No such file or directory
+compilation terminated.
+23:20:42 **** Rebuild of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.cpp" 
+..\src\pointers.cpp: In function 'int factorial(int)':
+..\src\pointers.cpp:21:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o pointers.exe "src\\pointers.o" 

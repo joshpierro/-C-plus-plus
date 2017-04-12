@@ -1,0 +1,5 @@
+22:00:47 **** Clean-only build of configuration Debug for project if ****
+rm -rf src/if.o src/if.d if.exe 
+
+22:00:48 Build Finished (took 785ms)
+

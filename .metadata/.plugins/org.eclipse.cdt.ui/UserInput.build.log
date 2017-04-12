@@ -1,0 +1,10 @@
+10:40:12 **** Incremental Build of configuration Debug for project UserInput ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\UserInput.o" "..\\src\\UserInput.cpp" 
+..\src\UserInput.cpp: In function 'int main()':
+..\src\UserInput.cpp:20:35: error: expected ';' before 'endl'
+  cout << "you entered: " << input endl;
+                                   ^
+
+10:40:12 Build Finished (took 324ms)
+
